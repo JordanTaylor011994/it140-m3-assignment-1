@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="paycheck-calculator-page" name="Paycheck Calculator">
-        <mxGraphModel dx="668" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1064" dy="44" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -8,7 +8,46 @@
                     <mxGeometry x="160" y="30" width="530" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="&lt;b&gt;TODO: Create your graded flowchart on this page.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Start from the assignment requirements and your Analyze notes. Use the &lt;b&gt;Symbols&lt;/b&gt; tab for the required flowchart shapes and the &lt;b&gt;Snippets&lt;/b&gt; tab for generic examples of sequence and branching.&lt;br&gt;&lt;br&gt;Your completed chart should show the required input, processing, decision branching, output, and Start/End points. Connect every step with arrows and make sure every branch can be followed to End.&lt;br&gt;&lt;br&gt;&lt;i&gt;Delete this instruction box when you begin your graded flowchart.&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;strokeWidth=1;spacing=14;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="125" y="140" width="600" height="330" as="geometry"/>
+                    <mxGeometry x="127" y="142" width="600" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="pJTCt_YTmJj_MXcM5sCu-2" value="Start" style="strokeWidth=2;shape=mxgraph.flowchart.terminator;aspect=fixed;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="211.005" y="186.5" width="100" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="iLna_K4p1ZYS7IGNj-1p-2" value="Input hours worked." style="shape=parallelogram;strokeWidth=2;perimeter=parallelogramPerimeter;rounded=1;arcSize=12;size=0.23;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;aspect=fixed;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="375.005" y="172" width="100" height="67" as="geometry"/>
+                </mxCell>
+                <mxCell id="tEd1xxVe7SPAc6awYb9n-2" value="Hours worked &amp;gt; 40?" style="strokeWidth=2;shape=mxgraph.flowchart.decision;fontSize=12;aspect=fixed;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="365.01" y="243.3" width="110" height="73.7" as="geometry"/>
+                </mxCell>
+                <mxCell id="oAOWT0NmElwfhPwahgXV-3" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="525.01" y="237" as="sourcePoint"/>
+                        <mxPoint x="675.0250000000001" y="138" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oAOWT0NmElwfhPwahgXV-9" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="pt3--jldAVASwlpFXIK3-2" target="2a42t9djebaIqQbo4b4u-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pt3--jldAVASwlpFXIK3-2" value="Pay = 800 + ((hours worked - 40) *30)" style="rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;aspect=fixed;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="322" width="88.06" height="59" as="geometry"/>
+                </mxCell>
+                <mxCell id="oAOWT0NmElwfhPwahgXV-8" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pt3--jldAVASwlpFXIK3-4" target="2a42t9djebaIqQbo4b4u-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pt3--jldAVASwlpFXIK3-4" value="Pay = hours worked * 20" style="rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;aspect=fixed;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="319" width="100" height="67" as="geometry"/>
+                </mxCell>
+                <mxCell id="oAOWT0NmElwfhPwahgXV-5" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="2a42t9djebaIqQbo4b4u-2" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2a42t9djebaIqQbo4b4u-2" value="Display weekly paycheck&amp;nbsp;" style="shape=parallelogram;strokeWidth=2;perimeter=parallelogramPerimeter;rounded=1;arcSize=12;size=0.23;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;aspect=fixed;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="710.01" y="317" width="80" height="53.6" as="geometry"/>
+                </mxCell>
+                <mxCell id="oAOWT0NmElwfhPwahgXV-2" value="End" style="strokeWidth=2;shape=mxgraph.flowchart.terminator;aspect=fixed;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="900.005" y="332.5" width="100" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2a42t9djebaIqQbo4b4u-2" target="oAOWT0NmElwfhPwahgXV-2">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
@@ -28,15 +67,20 @@
         </mxGraphModel>
     </diagram>
     <diagram name="Symbols" id="E0RcvYQW2tOlB-kFRd9z">
-        <mxGraphModel dx="772" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1064" dy="44" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="vU1Vuk4aWWdwwywqWB7g-0"/>
                 <mxCell id="vU1Vuk4aWWdwwywqWB7g-1" parent="vU1Vuk4aWWdwwywqWB7g-0"/>
+                <mxCell id="4iovjDoM8QT87foNns8e-0" style="edgeStyle=none;html=1;" edge="1" parent="vU1Vuk4aWWdwwywqWB7g-1" source="ruwEja1ynwABLk2xdBYC-0">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="640" y="10" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="ruwEja1ynwABLk2xdBYC-0" value="&lt;h4&gt;Flowchart Symbols for IT-140&lt;/h4&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;autosize=1;" parent="vU1Vuk4aWWdwwywqWB7g-1" vertex="1">
-                    <mxGeometry x="245.005" y="9" width="360" height="110" as="geometry"/>
+                    <mxGeometry x="245.005" y="14" width="360" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="ruwEja1ynwABLk2xdBYC-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;u&gt;Basic Symbols&amp;nbsp;&lt;/u&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" parent="vU1Vuk4aWWdwwywqWB7g-1" vertex="1">
-                    <mxGeometry x="160.01" y="121" width="529.99" height="30" as="geometry"/>
+                    <mxGeometry x="159.01" y="155" width="529.99" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="ruwEja1ynwABLk2xdBYC-2" value="Basic Process" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;flipH=0;container=0;" parent="vU1Vuk4aWWdwwywqWB7g-1" vertex="1">
                     <mxGeometry x="541.76" y="250.5" width="84" height="30" as="geometry"/>
@@ -47,6 +91,9 @@
                 <mxCell id="ruwEja1ynwABLk2xdBYC-4" value="&amp;lt;condition&amp;gt;?" style="strokeWidth=2;shape=mxgraph.flowchart.decision;fontSize=12;aspect=fixed;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;container=0;" parent="vU1Vuk4aWWdwwywqWB7g-1" vertex="1">
                     <mxGeometry x="686.01" y="172" width="100" height="67" as="geometry"/>
                 </mxCell>
+                <mxCell id="WBXQmQA5tH0NwCCcKJL8-0" value="" style="edgeStyle=none;html=1;" edge="1" parent="vU1Vuk4aWWdwwywqWB7g-1" source="ruwEja1ynwABLk2xdBYC-5" target="ruwEja1ynwABLk2xdBYC-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="ruwEja1ynwABLk2xdBYC-5" value="Decision&lt;br&gt;(if, while, for)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;flipH=0;container=0;" parent="vU1Vuk4aWWdwwywqWB7g-1" vertex="1">
                     <mxGeometry x="685.01" y="250.5" width="102" height="30" as="geometry"/>
                 </mxCell>
@@ -56,11 +103,14 @@
                 <mxCell id="ruwEja1ynwABLk2xdBYC-7" value="&amp;lt;terminator&amp;gt;" style="strokeWidth=2;shape=mxgraph.flowchart.terminator;aspect=fixed;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;container=0;" parent="vU1Vuk4aWWdwwywqWB7g-1" vertex="1">
                     <mxGeometry x="211.005" y="186.5" width="100" height="38" as="geometry"/>
                 </mxCell>
+                <mxCell id="QEtsM5QC0h4GdWSZ6_s7-0" value="" style="edgeStyle=none;html=1;" edge="1" parent="vU1Vuk4aWWdwwywqWB7g-1" source="ruwEja1ynwABLk2xdBYC-8" target="ruwEja1ynwABLk2xdBYC-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="ruwEja1ynwABLk2xdBYC-8" value="Basic Data" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;flipH=0;container=0;" parent="vU1Vuk4aWWdwwywqWB7g-1" vertex="1">
                     <mxGeometry x="381.005" y="250.5" width="88" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="ruwEja1ynwABLk2xdBYC-9" value="Get | Put&lt;br&gt;&amp;lt;data&amp;gt;" style="shape=parallelogram;strokeWidth=2;perimeter=parallelogramPerimeter;rounded=1;arcSize=12;size=0.23;fontSize=12;whiteSpace=wrap;spacing=2;labelBackgroundColor=none;labelBorderColor=none;fontColor=default;html=1;aspect=fixed;container=0;" parent="vU1Vuk4aWWdwwywqWB7g-1" vertex="1">
-                    <mxGeometry x="375.005" y="172" width="100" height="67" as="geometry"/>
+                    <mxGeometry x="380.005" y="172" width="100" height="67" as="geometry"/>
                 </mxCell>
                 <mxCell id="ruwEja1ynwABLk2xdBYC-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;u&gt;Specific Data Symbols&amp;nbsp;&lt;/u&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" parent="vU1Vuk4aWWdwwywqWB7g-1" vertex="1">
                     <mxGeometry x="200.005" y="338" width="450" height="30" as="geometry"/>
