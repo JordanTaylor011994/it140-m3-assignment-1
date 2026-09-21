@@ -24,5 +24,4 @@ LET pay = 800 + ((hours_worked - 40) * 30)
 END paycheck_calculator
 
 
-# === References ===
-# TODO: List outside sources or assistance you actually used, or delete this line.
+# === References =
